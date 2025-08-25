@@ -1,0 +1,19 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "member-consent-response",
+  "questionnaire": "Questionnaire/member-consent-form",
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/12345"
+  },
+  "item": [
+    {
+      "linkId": "1",
+      "answer": [{ "valueBoolean": true }]
+    },
+    {
+      "linkId": "2",
+      "answer": [{ "valueCoding": { "code": "1y", "display": "1 year" } }]
+    }
+  ]
+}
