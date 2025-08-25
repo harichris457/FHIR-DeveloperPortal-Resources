@@ -1,0 +1,9 @@
+{
+  "resourceType": "Organization",
+  "id": "app-vendor-org",
+  "name": "XYZ Health Technologies",
+  "identifier": [
+    { "system": "https://appregistry.example.com", "value": "xyz-app-vendor" }
+  ],
+  "endpoint": [{ "reference": "Endpoint/xyz-app-endpoint" }]
+}
