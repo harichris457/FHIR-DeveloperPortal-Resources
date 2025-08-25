@@ -1,0 +1,9 @@
+{
+  "resourceType": "Device",
+  "id": "xyz-app",
+  "identifier": [
+    { "system": "https://developerportal.example.com/apps", "value": "client-789" }
+  ],
+  "deviceName": [{ "name": "XYZ Health App", "type": "user-friendly-name" }],
+  "owner": { "reference": "Organization/app-vendor-org" }
+}
