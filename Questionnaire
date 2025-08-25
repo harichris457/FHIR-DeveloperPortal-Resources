@@ -1,0 +1,23 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "member-consent-form",
+  "title": "Consent to Share Health Data",
+  "status": "active",
+  "item": [
+    {
+      "linkId": "1",
+      "text": "Do you consent to share your clinical and claims data with XYZ App?",
+      "type": "boolean"
+    },
+    {
+      "linkId": "2",
+      "text": "For how long do you allow access?",
+      "type": "choice",
+      "answerOption": [
+        { "valueCoding": { "code": "30d", "display": "30 days" } },
+        { "valueCoding": { "code": "1y", "display": "1 year" } },
+        { "valueCoding": { "code": "indef", "display": "Until revoked" } }
+      ]
+    }
+  ]
+}
